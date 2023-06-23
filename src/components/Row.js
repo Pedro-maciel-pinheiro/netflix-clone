@@ -27,7 +27,11 @@ function Row({title,path}) {
 
 
 
-  return <div>Row</div>;
+  return <div className="row-container">
+        <h2 className="row-header">{title}</h2>
+
+
+  </div>;
 }
 
 export default Row;
