@@ -5,16 +5,19 @@ const categories = [
     name: "trending",
     title: "relevant",
     path: `/trending/all/week?api_key=${API_KEY}&language=en`,
+    isLarge: true,
   },
   {
     name: "netflixOriginals",
     title: "Originals Netflix",
     path: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
+    isLarge: false,
   },
   {
     name: "topRated",
     title: "popular",
     path: `/movie/top_rated?api_key=${API_KEY}&language=en`,
+    isLarge: false,
   },
   {
     name: "comedy",

@@ -1,6 +1,6 @@
 .row-container {
     margin-left: 20px;
-    color: rgb(14, 13, 13);
+    color: rgb(202, 2, 2);
   }
   
   .row-cards {
@@ -10,25 +10,28 @@
     padding: 20px;
   }
   
-  .row-cards::-webkit-scrollbar {
+  /* .row-cards::-webkit-scrollbar {
     display: none;
   }
-  
+   */
   .movie-card {
-    object-fit: contain;
-    width: 100%;
-    max-height: 240px;
-    margin-bottom: 10px;
-    transition: transform 450ms;
-    padding: 5px;
-  }
-  
-  .movie-card-large {
     object-fit: contain;
     width: 100%;
     max-height: 250px;
     margin-bottom: 10px;
     transition: transform 450ms;
+    padding: 5px;
+
+    
+  }
+  
+  .movie-card-large {
+    object-fit: contain;
+    width: 100%;
+    max-height: 400px;
+    margin-bottom: 10px;
+    transition: transform 450ms;
+    padding: 10px;
   }
   
   .movie-card:hover {
