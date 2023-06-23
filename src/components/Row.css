@@ -1,6 +1,6 @@
 .row-container {
     margin-left: 20px;
-    color: white;
+    color: rgb(14, 13, 13);
   }
   
   .row-cards {
@@ -17,9 +17,10 @@
   .movie-card {
     object-fit: contain;
     width: 100%;
-    max-height: 100px;
+    max-height: 240px;
     margin-bottom: 10px;
     transition: transform 450ms;
+    padding: 5px;
   }
   
   .movie-card-large {
@@ -31,5 +32,5 @@
   }
   
   .movie-card:hover {
-    transform: scale(1.08);
+    transform: scale(1.10);
   }
